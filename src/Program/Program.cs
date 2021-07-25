@@ -21,7 +21,7 @@ namespace ObjectLifecycle
             AssignTwoVariablesWithObject();
             CompareDifferentObjects();
             CompareEqualObjects();
-            CreateObjects();
+            CreateObject();
         }
 
         /// <summary>
@@ -86,7 +86,7 @@ namespace ObjectLifecycle
         /// <summary>
         /// Ejemplo que muestra el pasaje como parámetro de un objeto
         /// </summary>
-        public static void CreateObjects()
+        public static void CreateObject()
         {
             Person artillero = new Person("Luis", "Artime");
             Console.WriteLine($"Antes de cambiar el nombre: {artillero.FullName}");
