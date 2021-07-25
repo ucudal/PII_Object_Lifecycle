@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Library</name>
+    </assembly>
+    <members>
+        <member name="T:WordsPhrases.Phrase">
+            <summary>
+            Frase compuesta por una o más palabras <see cref="T:WordsPhrases.Word"/>.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Phrase.#ctor">
+            <summary>
+            Crea una nueva frase.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Phrase.AddWord(WordsPhrases.Word)">
+            <summary>
+            Agrega al final de la frase la palabra pasada como argumento.
+            </summary>
+            <param name="word">La palabra a agregar.</param>
+        </member>
+        <member name="M:WordsPhrases.Phrase.RemoveWord(WordsPhrases.Word)">
+            <summary>
+            Remueve de la frase la palabra pasada como argumento
+            </summary>
+            <param name="word"></param>
+        </member>
+        <member name="M:WordsPhrases.Phrase.GetPhrase">
+            <summary>
+            Concatena las palabras de la frase.
+            </summary>
+            <returns>Las palabras de la frase concatenadas separadas por espacios.</returns>
+        </member>
+        <member name="T:WordsPhrases.Word">
+            <summary>
+            Una palabra que es parte de una <see cref="T:WordsPhrases.Phrase"/>.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Word.#ctor(System.String)">
+            <summary>
+            Crea una nueva palabra con el texto recibido como argumento.
+            </summary>
+            <param name="text">El texto de la palabra.</param>
+        </member>
+        <member name="P:WordsPhrases.Word.Text">
+            <summary>
+            Obtiene o establece el texto de la palabra. El texto no tiene espacios al comienzo ni al final -los espacios
+            son removidos al asignar el texto-.
+            </summary>
+            <value>El texto de la palabra</value>
+        </member>
+        <member name="M:WordsPhrases.Word.ToUpper">
+            <summary>
+             Convierte el texto de la palabra a mayúsculas.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Word.op_Equality(WordsPhrases.Word,WordsPhrases.Word)">
+            <summary>
+            Compara dos objetos para determinar si son iguales.
+            </summary>
+            <param name="a">Uno de los objetos a comparar.</param>
+            <param name="b">El otro objeto a comparar.</param>
+            <returns><c>True</c> si el primer objeto es igual al segundo; <c>False</c> en caso contrario.</returns>
+        </member>
+        <member name="M:WordsPhrases.Word.op_Inequality(WordsPhrases.Word,WordsPhrases.Word)">
+            <summary>
+            Compara dos objetos para determinar si son diferentes.
+            </summary>
+            <param name="a">Uno de los objetos a comparar.</param>
+            <param name="b">El otro objeto a comparar.</param>
+            <returns><c>True</c> si el primer objeto no es igual al segundo; <c>False</c> en caso contrario.</returns>
+        </member>
+        <member name="M:WordsPhrases.Word.Equals(System.Object)">
+            <summary>
+            Determina cuándo este objeto es igual a otro que se recibe como parámetro.
+            </summary>
+            <param name="obj">El objeto a comparar.</param>
+            <returns><c>True</c> si este objeto es igual al que se recibe como parámetro; <c>False</c> en caso
+            contrario.</returns>
+        </member>
+        <member name="M:WordsPhrases.Word.GetHashCode">
+            <summary>
+            Genera un código hash para este objeto.
+            </summary>
+            <returns>El código hash generado.</returns>
+        </member>
+    </members>
+</doc>
