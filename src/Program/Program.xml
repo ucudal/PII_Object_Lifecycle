@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Program</name>
+    </assembly>
+    <members>
+        <member name="T:WordsPhrases.Program">
+            <summary>
+            Clase que contiene el punto de entrada al programa.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Program.Main">
+            <summary>
+            El punto de entrada al programa.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Program.AssignVariableWithObject">
+            <summary>
+            Ejemplo que muestra la asignación de un objeto a una variable.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Program.AssignTwoVariablesWithObject">
+            <summary>
+            Ejemplo que muestra la asignación del mismo objeto a dos variables.
+            </summary>
+        </member>
+        <member name="M:WordsPhrases.Program.CompareObjects">
+            <summary>
+            Ejemplo que muestra la comparación de dos objetos asignados a dos variables diferentes.
+            </summary>
+        </member>
+    </members>
+</doc>
