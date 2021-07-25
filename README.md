@@ -1,3 +1,4 @@
+![UCU](./Assets/logo-ucu.png)
 # Universidad Católica del Uruguay
 ## Facultad de Ingeniería y Tecnologías
 ### Programación II
