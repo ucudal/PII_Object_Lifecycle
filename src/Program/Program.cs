@@ -21,6 +21,7 @@ namespace ObjectLifecycle
             AssignTwoVariablesWithObject();
             CompareDifferentObjects();
             CompareEqualObjects();
+            CreateObjects();
         }
 
         /// <summary>
@@ -80,6 +81,26 @@ namespace ObjectLifecycle
 
             Console.WriteLine($"¿Las dos variables apuntan al mismo objeto? {chino == arquero}");
             Console.WriteLine($"¿Los dos objetos son iguales? {chino.Equals(arquero)}");
-        }        
+        }
+
+        /// <summary>
+        /// Ejemplo que muestra el pasaje como parámetro de un objeto
+        /// </summary>
+        public static void CreateObjects()
+        {
+            Person artillero = new Person("Luis", "Artime");
+            Console.WriteLine($"Antes de cambiar el nombre: {artillero.FullName}");
+            UseObject(artillero);
+            Console.WriteLine($"Después de cambiar el nombre: {artillero.FullName}");
+        }
+
+        /// <summary>
+        /// Ejemplo que muestra cómo modificar un objeto que se recibe como parámetro.
+        /// </summary>
+        /// <param name="person">El objeto a modificar.</param>
+        public static void UseObject(Person person)
+        {
+            person.FamilyName = "Ganador de Copas";
+        }
     }
 }

@@ -34,5 +34,16 @@
             Ejemplo que muestra la comparación de dos objetos ¿iguales? asignados a dos variables diferentes.
             </summary>
         </member>
+        <member name="M:ObjectLifecycle.Program.CreateObjects">
+            <summary>
+            Ejemplo que muestra el pasaje como parámetro de un objeto
+            </summary>
+        </member>
+        <member name="M:ObjectLifecycle.Program.UseObject(ObjectLifecycle.Person)">
+            <summary>
+            Ejemplo que muestra cómo modificar un objeto que se recibe como parámetro.
+            </summary>
+            <param name="person">El objeto a modificar.</param>
+        </member>
     </members>
 </doc>
