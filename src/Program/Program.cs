@@ -46,7 +46,7 @@ namespace ObjectLifecycle
             goleador = lavandina;
             Console.WriteLine(goleador.FullName);
             
-            Console.WriteLine(lavandina==goleador);
+            Console.WriteLine($"¿Las dos variables apuntan al mismo objeto? {lavandina==goleador}");
         }
 
         /// <summary>
@@ -62,7 +62,7 @@ namespace ObjectLifecycle
             cacique = new Person("Alexander", "Medina");
             Console.WriteLine(cacique.FullName);
 
-            Console.WriteLine(chino == cacique);
+            Console.WriteLine($"¿Las dos variables apuntan al mismo objeto? {chino == cacique}");
         }
 
         /// <summary>
@@ -78,7 +78,8 @@ namespace ObjectLifecycle
             arquero = new Person("Sergio", "Rochet");
             Console.WriteLine(arquero.FullName);
 
-            Console.WriteLine(chino == arquero);
+            Console.WriteLine($"¿Las dos variables apuntan al mismo objeto? {chino == arquero}");
+            Console.WriteLine($"¿Los dos objetos son iguales? {chino.Equals(arquero)}");
         }        
     }
 }
