@@ -5,7 +5,7 @@
 //-------------------------------------------------------------------------
 using System;
 
-namespace WordsPhrases
+namespace ObjectLifecycle
 {
     /// <summary>
     /// Clase que contiene el punto de entrada al programa.
@@ -19,7 +19,8 @@ namespace WordsPhrases
         {
             AssignVariableWithObject();
             AssignTwoVariablesWithObject();
-            CompareObjects();
+            CompareDifferentObjects();
+            CompareEqualObjects();
         }
 
         /// <summary>
@@ -27,11 +28,9 @@ namespace WordsPhrases
         /// </summary>
         public static void AssignVariableWithObject()
         {
-            Word localWord;
-            localWord = new Word("Hello");
-            Console.WriteLine(localWord.Text);
-            localWord.ToUpper();
-            Console.WriteLine(localWord.Text);
+            Person lucho;
+            lucho = new Person("Luis", "Suárez");
+            Console.WriteLine(lucho.FullName);
         }
 
         /// <summary>
@@ -39,26 +38,47 @@ namespace WordsPhrases
         /// </summary>
         public static void AssignTwoVariablesWithObject()
         {
-            Word localWord;
-            localWord = new Word("Hello");
-            Console.WriteLine(localWord.Text);
-            Word sameWord;
-            sameWord = localWord;
-            localWord.ToUpper();
-            Console.WriteLine(sameWord.Text);
-            Console.WriteLine(localWord==sameWord);
+            Person lavandina;
+            lavandina = new Person("Gonzalo", "Bergesio");
+            Console.WriteLine(lavandina.FullName);
+            
+            Person goleador;
+            goleador = lavandina;
+            Console.WriteLine(goleador.FullName);
+            
+            Console.WriteLine(lavandina==goleador);
         }
 
         /// <summary>
-        /// Ejemplo que muestra la comparación de dos objetos asignados a dos variables diferentes.
+        /// Ejemplo que muestra la comparación de dos objetos diferentes asignados a dos variables diferentes.
         /// </summary>
-        public static void CompareObjects()
+        public static void CompareDifferentObjects()
         {
-            Word oneWord;
-            oneWord = new Word("Hello");
-            Word anotherWord;
-            anotherWord = new Word("Hello");
-            Console.WriteLine(oneWord == anotherWord);
+            Person chino;
+            chino = new Person("Álvaro", "Recoba");
+            Console.WriteLine(chino.FullName);
+
+            Person cacique;
+            cacique = new Person("Alexander", "Medina");
+            Console.WriteLine(cacique.FullName);
+
+            Console.WriteLine(chino == cacique);
         }
+
+        /// <summary>
+        /// Ejemplo que muestra la comparación de dos objetos ¿iguales? asignados a dos variables diferentes.
+        /// </summary>
+        public static void CompareEqualObjects()
+        {
+            Person chino;
+            chino = new Person("Sergio", "Rochet");
+            Console.WriteLine(chino.FullName);
+
+            Person arquero;
+            arquero = new Person("Sergio", "Rochet");
+            Console.WriteLine(arquero.FullName);
+
+            Console.WriteLine(chino == arquero);
+        }        
     }
 }

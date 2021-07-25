@@ -4,86 +4,36 @@
         <name>Library</name>
     </assembly>
     <members>
-        <member name="T:WordsPhrases.Phrase">
+        <member name="T:ObjectLifecycle.Person">
             <summary>
-            Frase compuesta por una o más palabras <see cref="T:WordsPhrases.Word"/>.
+            Una persona.
             </summary>
         </member>
-        <member name="M:WordsPhrases.Phrase.#ctor">
+        <member name="M:ObjectLifecycle.Person.#ctor(System.String,System.String)">
             <summary>
-            Crea una nueva frase.
+            Crea una nueva persona con el nombre y apellidos recibids como argumento.
             </summary>
+            <param name="name">El nombre de la persona.</param>
+            <param name="familyName">El apellido de la persona.</param>
         </member>
-        <member name="M:WordsPhrases.Phrase.AddWord(WordsPhrases.Word)">
+        <member name="P:ObjectLifecycle.Person.Name">
             <summary>
-            Agrega al final de la frase la palabra pasada como argumento.
-            </summary>
-            <param name="word">La palabra a agregar.</param>
-        </member>
-        <member name="M:WordsPhrases.Phrase.RemoveWord(WordsPhrases.Word)">
-            <summary>
-            Remueve de la frase la palabra pasada como argumento
-            </summary>
-            <param name="word"></param>
-        </member>
-        <member name="M:WordsPhrases.Phrase.GetPhrase">
-            <summary>
-            Concatena las palabras de la frase.
-            </summary>
-            <returns>Las palabras de la frase concatenadas separadas por espacios.</returns>
-        </member>
-        <member name="T:WordsPhrases.Word">
-            <summary>
-            Una palabra que es parte de una <see cref="T:WordsPhrases.Phrase"/>.
-            </summary>
-        </member>
-        <member name="M:WordsPhrases.Word.#ctor(System.String)">
-            <summary>
-            Crea una nueva palabra con el texto recibido como argumento.
-            </summary>
-            <param name="text">El texto de la palabra.</param>
-        </member>
-        <member name="P:WordsPhrases.Word.Text">
-            <summary>
-            Obtiene o establece el texto de la palabra. El texto no tiene espacios al comienzo ni al final -los espacios
+            Obtiene o establece el nombre de la persona. El texto no tiene espacios al comienzo ni al final -los espacios
             son removidos al asignar el texto-.
             </summary>
-            <value>El texto de la palabra</value>
+            <value>El nombre de la persona</value>
         </member>
-        <member name="M:WordsPhrases.Word.ToUpper">
+        <member name="P:ObjectLifecycle.Person.FamilyName">
             <summary>
-             Convierte el texto de la palabra a mayúsculas.
+            Obtiene o establece el apellido de la persona. El texto no tiene espacios al comienzo ni al final -los
+            espaciosson removidos al asignar el texto-.
             </summary>
+            <value>El apellido de la persona</value>
         </member>
-        <member name="M:WordsPhrases.Word.op_Equality(WordsPhrases.Word,WordsPhrases.Word)">
+        <member name="P:ObjectLifecycle.Person.FullName">
             <summary>
-            Compara dos objetos para determinar si son iguales.
+             Obtiene el nombre completo de la persona concatenando el nombre y el apellido.
             </summary>
-            <param name="a">Uno de los objetos a comparar.</param>
-            <param name="b">El otro objeto a comparar.</param>
-            <returns><c>True</c> si el primer objeto es igual al segundo; <c>False</c> en caso contrario.</returns>
-        </member>
-        <member name="M:WordsPhrases.Word.op_Inequality(WordsPhrases.Word,WordsPhrases.Word)">
-            <summary>
-            Compara dos objetos para determinar si son diferentes.
-            </summary>
-            <param name="a">Uno de los objetos a comparar.</param>
-            <param name="b">El otro objeto a comparar.</param>
-            <returns><c>True</c> si el primer objeto no es igual al segundo; <c>False</c> en caso contrario.</returns>
-        </member>
-        <member name="M:WordsPhrases.Word.Equals(System.Object)">
-            <summary>
-            Determina cuándo este objeto es igual a otro que se recibe como parámetro.
-            </summary>
-            <param name="obj">El objeto a comparar.</param>
-            <returns><c>True</c> si este objeto es igual al que se recibe como parámetro; <c>False</c> en caso
-            contrario.</returns>
-        </member>
-        <member name="M:WordsPhrases.Word.GetHashCode">
-            <summary>
-            Genera un código hash para este objeto.
-            </summary>
-            <returns>El código hash generado.</returns>
         </member>
     </members>
 </doc>

@@ -4,29 +4,34 @@
         <name>Program</name>
     </assembly>
     <members>
-        <member name="T:WordsPhrases.Program">
+        <member name="T:ObjectLifecycle.Program">
             <summary>
             Clase que contiene el punto de entrada al programa.
             </summary>
         </member>
-        <member name="M:WordsPhrases.Program.Main">
+        <member name="M:ObjectLifecycle.Program.Main">
             <summary>
             El punto de entrada al programa.
             </summary>
         </member>
-        <member name="M:WordsPhrases.Program.AssignVariableWithObject">
+        <member name="M:ObjectLifecycle.Program.AssignVariableWithObject">
             <summary>
             Ejemplo que muestra la asignación de un objeto a una variable.
             </summary>
         </member>
-        <member name="M:WordsPhrases.Program.AssignTwoVariablesWithObject">
+        <member name="M:ObjectLifecycle.Program.AssignTwoVariablesWithObject">
             <summary>
             Ejemplo que muestra la asignación del mismo objeto a dos variables.
             </summary>
         </member>
-        <member name="M:WordsPhrases.Program.CompareObjects">
+        <member name="M:ObjectLifecycle.Program.CompareDifferentObjects">
             <summary>
-            Ejemplo que muestra la comparación de dos objetos asignados a dos variables diferentes.
+            Ejemplo que muestra la comparación de dos objetos diferentes asignados a dos variables diferentes.
+            </summary>
+        </member>
+        <member name="M:ObjectLifecycle.Program.CompareEqualObjects">
+            <summary>
+            Ejemplo que muestra la comparación de dos objetos ¿iguales? asignados a dos variables diferentes.
             </summary>
         </member>
     </members>
