@@ -8,4 +8,8 @@
     <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="JetBrains.dotMemory.Console.linux-x64" Version="2020.2.0-eap01" />
+  </ItemGroup>
+
 </Project>
