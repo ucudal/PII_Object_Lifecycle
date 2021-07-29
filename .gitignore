@@ -387,5 +387,5 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
-# Doxygen
-docs/html
+# # Doxygen
+# docs/html
