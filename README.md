@@ -7,3 +7,5 @@
 ### Programación II
 
 Código de ejemplo del tema "ciclo de vida de los objetos"
+
+Ver la documentación del ejemplo [aquí](https://ucudal.github.io/PII_Object_Lifecycle/).
