@@ -1,0 +1,13 @@
+digraph "ObjectLifecycle.Program.UseObject"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ObjectLifecycle.Program.\lUseObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Ejemplo que muestra cómo modificar un objeto que se recibe como parámetro."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ObjectLifecycle.Program.\lCreateObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#a210497dac2a02c3a714e0e31ceb31a6c",tooltip="Ejemplo que muestra el pasaje como parámetro de un objeto"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ObjectLifecycle.Program.Main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#ab3ab1dc269cfaa2161e810d982764f89",tooltip="El punto de entrada al programa."];
+}

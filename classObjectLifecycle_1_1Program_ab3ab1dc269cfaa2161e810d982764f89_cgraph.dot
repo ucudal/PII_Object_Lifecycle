@@ -1,0 +1,21 @@
+digraph "ObjectLifecycle.Program.Main"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ObjectLifecycle.Program.Main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="El punto de entrada al programa."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ObjectLifecycle.Program.\lAssignTwoVariablesWithObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#a98bae0fa28bf2c5fdd2a2066fa43ed5b",tooltip="Ejemplo que muestra la asignación del mismo objeto a dos variables."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ObjectLifecycle.Program.\lAssignVariableWithObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#a51130a4cd9512a6a718243975b7c7713",tooltip="Ejemplo que muestra la asignación de un objeto a una variable."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ObjectLifecycle.Program.\lCompareDifferentObjects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#ae746cec7568772adcd0447bd929e99fb",tooltip="Ejemplo que muestra la comparación de dos objetos diferentes asignados a dos variables diferentes."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ObjectLifecycle.Program.\lCompareEqualObjects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#a34658a5669f7e20abe7582447acf1de0",tooltip="Ejemplo que muestra la comparación de dos objetos ¿iguales? asignados a dos variables diferentes."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ObjectLifecycle.Program.\lCreateObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#a210497dac2a02c3a714e0e31ceb31a6c",tooltip="Ejemplo que muestra el pasaje como parámetro de un objeto"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ObjectLifecycle.Program.\lUseObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObjectLifecycle_1_1Program.html#a00a4a8e5d28f0d1d77a16e134699465e",tooltip="Ejemplo que muestra cómo modificar un objeto que se recibe como parámetro."];
+}
