@@ -1,0 +1,40 @@
+SF:/home/fernando/source/repos/PII_Object_Lifecycle/src/Library/Person.cs
+FN:39,System.String ObjectLifecycle.Person::get_Name()
+FNDA:2,System.String ObjectLifecycle.Person::get_Name()
+DA:40,2
+DA:41,2
+DA:42,2
+FN:44,System.Void ObjectLifecycle.Person::set_Name(System.String)
+FNDA:1,System.Void ObjectLifecycle.Person::set_Name(System.String)
+DA:45,1
+DA:46,1
+DA:47,1
+FN:57,System.String ObjectLifecycle.Person::get_FamilyName()
+FNDA:2,System.String ObjectLifecycle.Person::get_FamilyName()
+DA:58,2
+DA:59,2
+DA:60,2
+FN:62,System.Void ObjectLifecycle.Person::set_FamilyName(System.String)
+FNDA:1,System.Void ObjectLifecycle.Person::set_FamilyName(System.String)
+DA:63,1
+DA:64,1
+DA:65,1
+FN:73,System.String ObjectLifecycle.Person::get_FullName()
+FNDA:1,System.String ObjectLifecycle.Person::get_FullName()
+DA:74,1
+DA:75,1
+DA:76,1
+FN:25,System.Void ObjectLifecycle.Person::.ctor(System.String,System.String)
+FNDA:2,System.Void ObjectLifecycle.Person::.ctor(System.String,System.String)
+DA:26,2
+DA:27,2
+DA:28,2
+DA:29,2
+DA:30,2
+LF:20
+LH:20
+BRF:0
+BRH:0
+FNF:6
+FNH:6
+end_of_record
