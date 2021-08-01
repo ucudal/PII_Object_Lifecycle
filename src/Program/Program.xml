@@ -36,7 +36,7 @@
         </member>
         <member name="M:ObjectLifecycle.Program.CreateObject">
             <summary>
-            Ejemplo que muestra el pasaje como parámetro de un objeto
+            Ejemplo que muestra el pasaje como parámetro de un objeto.
             </summary>
         </member>
         <member name="M:ObjectLifecycle.Program.UseObject(ObjectLifecycle.Person)">

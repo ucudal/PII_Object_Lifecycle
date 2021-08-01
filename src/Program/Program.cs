@@ -1,8 +1,9 @@
-﻿//-------------------------------------------------------------------------
+﻿//-----------------------------------------------------------------------
 // <copyright file="Program.cs" company="Universidad Católica del Uruguay">
 // Copyright (c) Programación II. Derechos reservados.
 // </copyright>
-//-------------------------------------------------------------------------
+//-----------------------------------------------------------------------
+
 using System;
 
 namespace ObjectLifecycle
@@ -10,7 +11,7 @@ namespace ObjectLifecycle
     /// <summary>
     /// Clase que contiene el punto de entrada al programa.
     /// </summary>
-    public class Program
+    public static class Program
     {
         /// <summary>
         /// El punto de entrada al programa.
@@ -42,12 +43,12 @@ namespace ObjectLifecycle
             Person lavandina;
             lavandina = new Person("Gonzalo", "Bergesio");
             Console.WriteLine(lavandina.FullName);
-            
+
             Person goleador;
             goleador = lavandina;
             Console.WriteLine(goleador.FullName);
-            
-            Console.WriteLine($"¿Las dos variables apuntan al mismo objeto? {lavandina==goleador}");
+
+            Console.WriteLine($"¿Las dos variables apuntan al mismo objeto? {lavandina == goleador}");
         }
 
         /// <summary>
@@ -84,7 +85,7 @@ namespace ObjectLifecycle
         }
 
         /// <summary>
-        /// Ejemplo que muestra el pasaje como parámetro de un objeto
+        /// Ejemplo que muestra el pasaje como parámetro de un objeto.
         /// </summary>
         public static void CreateObject()
         {
@@ -98,7 +99,7 @@ namespace ObjectLifecycle
         /// Ejemplo que muestra cómo modificar un objeto que se recibe como parámetro.
         /// </summary>
         /// <param name="person">El objeto a modificar.</param>
-        public static void UseObject(Person person)
+        private static void UseObject(Person person)
         {
             person.FamilyName = "Ganador de Copas";
         }

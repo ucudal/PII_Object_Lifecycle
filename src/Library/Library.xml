@@ -21,14 +21,14 @@
             Obtiene o establece el nombre de la persona. El texto no tiene espacios al comienzo ni al final -los espacios
             son removidos al asignar el texto-.
             </summary>
-            <value>El nombre de la persona</value>
+            <value>El nombre de la persona.</value>
         </member>
         <member name="P:ObjectLifecycle.Person.FamilyName">
             <summary>
             Obtiene o establece el apellido de la persona. El texto no tiene espacios al comienzo ni al final -los
             espaciosson removidos al asignar el texto-.
             </summary>
-            <value>El apellido de la persona</value>
+            <value>El apellido de la persona.</value>
         </member>
         <member name="P:ObjectLifecycle.Person.FullName">
             <summary>

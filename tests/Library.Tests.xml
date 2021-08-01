@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Library.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:ObjectLifecycle.Tests.PersonTests">
+            <summary>
+            Tests para la clase <see cref="T:ObjectLifecycle.Person"/>.
+            </summary>
+        </member>
+        <member name="M:ObjectLifecycle.Tests.PersonTests.TestProperties">
+            <summary>
+            Prueba getters y setters de la clase <see cref="T:ObjectLifecycle.Person"/>.
+            </summary>
+        </member>
+        <member name="M:ObjectLifecycle.Tests.PersonTests.TestFullName">
+            <summary>
+            Prueba el método <see cref="P:ObjectLifecycle.Person.FullName"/>.
+            </summary>
+        </member>
+    </members>
+</doc>

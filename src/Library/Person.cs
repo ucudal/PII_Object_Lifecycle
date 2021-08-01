@@ -5,6 +5,8 @@
 //-------------------------------------------------------------------------
 using System;
 
+[assembly:CLSCompliant(true)]
+
 namespace ObjectLifecycle
 {
     /// <summary>
@@ -33,7 +35,7 @@ namespace ObjectLifecycle
         /// Obtiene o establece el nombre de la persona. El texto no tiene espacios al comienzo ni al final -los espacios
         /// son removidos al asignar el texto-.
         /// </summary>
-        /// <value>El nombre de la persona</value>
+        /// <value>El nombre de la persona.</value>
         public string Name
         {
             get
@@ -51,7 +53,7 @@ namespace ObjectLifecycle
         /// Obtiene o establece el apellido de la persona. El texto no tiene espacios al comienzo ni al final -los
         /// espaciosson removidos al asignar el texto-.
         /// </summary>
-        /// <value>El apellido de la persona</value>
+        /// <value>El apellido de la persona.</value>
         public string FamilyName
         {
             get
@@ -72,7 +74,7 @@ namespace ObjectLifecycle
         {
             get
             {
-                return String.Format($"{this.name} {this.familyName}");
+                return FormattableString.Invariant($"{this.name} {this.familyName}");
             }
         }
 
