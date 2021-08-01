@@ -7,21 +7,19 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Program/Program.csproj",
+                "${workspaceFolder}",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "publish",
+            "label": "clean",
             "command": "dotnet",
             "type": "process",
             "args": [
-                "publish",
-                "${workspaceFolder}/src/Program/Program.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "clean",
+                "${workspaceFolder}"
             ],
             "problemMatcher": "$msCompile"
         },
