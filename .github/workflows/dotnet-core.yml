@@ -7,7 +7,7 @@ on:
     branches: [ master ]
   workflow_dispatch:
     branches: [ master ]
-    
+
 jobs:
   generate-docs:
     runs-on: ubuntu-latest
@@ -21,10 +21,6 @@ jobs:
         with:
           dotnet-version: 5.0.201
 
-      # - name: Setup DocFX
-      #   uses: crazy-max/ghaction-chocolatey@v1
-      #   with:
-      #     args: install docfx
       - name: Setup Doxygen
         run: sudo apt-get install -y doxygen
 
@@ -34,25 +30,14 @@ jobs:
       - name: Building...
         run: dotnet build
 
-      # - name: Running test...
-      #   run: dotnet test
+      - name: Running test...
+        run: dotnet test
 
-      # - name: Building docs...
-      #   working-directory: docs
-      #   run: docfx docfx.json
-      #   continue-on-error: false
       - name: Building docs...
         working-directory: docs
         run: doxygen Doxyfile
         continue-on-error: false
 
-      # - name: Publishing docs...
-      #   if: github.event_name == 'push'
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: docs/_site
-      #     force_orphan: true
       - name: Publishing docs...
         uses: peaceiris/actions-gh-pages@v3
         with:
