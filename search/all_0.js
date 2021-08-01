@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['assigntwovariableswithobject_0',['AssignTwoVariablesWithObject',['../classObjectLifecycle_1_1Program.html#a98bae0fa28bf2c5fdd2a2066fa43ed5b',1,'ObjectLifecycle::Program']]],
-  ['assignvariablewithobject_1',['AssignVariableWithObject',['../classObjectLifecycle_1_1Program.html#a51130a4cd9512a6a718243975b7c7713',1,'ObjectLifecycle::Program']]]
+  ['familyname_0',['FamilyName',['../classObjectLifecycle_1_1Person.html#a985f3c6b793ca15ca1da81cedf6e8eb6',1,'ObjectLifecycle::Person']]],
+  ['fullname_1',['FullName',['../classObjectLifecycle_1_1Person.html#a91caa460697d559b5ac1937395fd63ac',1,'ObjectLifecycle::Person']]]
 ];
