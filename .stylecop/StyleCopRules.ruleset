@@ -5,7 +5,11 @@
     <Rule Id="SA1121" Action="None" />
     <Rule Id="SA1200" Action="None" />
     <Rule Id="SA1623" Action="None" />
+    <Rule Id="SA1636" Action="None" />
     <Rule Id="SA1642" Action="None" />
     <Rule Id="SA1652" Action="None" />
+
+    <Rule Id="CA1014" Action="None" />
   </Rules>
 </RuleSet>
+
