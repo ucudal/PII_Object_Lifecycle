@@ -1,10 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "fnop",
-  1: "p",
+  0: "afnoprt",
+  1: "ap",
   2: "o",
-  3: "p",
-  4: "fn"
+  3: "pt",
+  4: "fn",
+  5: "r"
 };
 
 var indexSectionNames =
@@ -13,7 +14,8 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "functions",
-  4: "properties"
+  4: "properties",
+  5: "pages"
 };
 
 var indexSectionLabels =
@@ -22,6 +24,7 @@ var indexSectionLabels =
   1: "Classes",
   2: "Namespaces",
   3: "Functions",
-  4: "Properties"
+  4: "Properties",
+  5: "Pages"
 };
 

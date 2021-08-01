@@ -1,4 +1,4 @@
 var namespaces_dup =
 [
-    [ "ObjectLifecycle", "namespaceObjectLifecycle.html", null ]
+    [ "ObjectLifecycle", "namespaceObjectLifecycle.html", "namespaceObjectLifecycle" ]
 ];

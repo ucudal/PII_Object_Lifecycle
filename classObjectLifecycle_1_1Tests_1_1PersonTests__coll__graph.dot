@@ -1,0 +1,8 @@
+digraph "ObjectLifecycle.Tests.PersonTests"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{ObjectLifecycle.Tests.Person\lTests\n||+ TestProperties()\l+ TestFullName()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Tests para la clase Person."];
+}

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name_2',['Name',['../classObjectLifecycle_1_1Person.html#ae1f2ebe52346838b12a161d602dc8c58',1,'ObjectLifecycle::Person']]]
+  ['familyname_1',['FamilyName',['../classObjectLifecycle_1_1Person.html#a985f3c6b793ca15ca1da81cedf6e8eb6',1,'ObjectLifecycle::Person']]],
+  ['fullname_2',['FullName',['../classObjectLifecycle_1_1Person.html#a91caa460697d559b5ac1937395fd63ac',1,'ObjectLifecycle::Person']]]
 ];

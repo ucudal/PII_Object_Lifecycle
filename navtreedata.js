@@ -23,6 +23,13 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Object Lifecycle", "index.html", [
+    [ "README", "md__home_runner_work_PII_Object_Lifecycle_PII_Object_Lifecycle_README.html", [
+      [ "Universidad Católica del Uruguay", "md__home_runner_work_PII_Object_Lifecycle_PII_Object_Lifecycle_README.html#autotoc_md0", [
+        [ "Facultad de Ingeniería y Tecnologías", "md__home_runner_work_PII_Object_Lifecycle_PII_Object_Lifecycle_README.html#autotoc_md1", [
+          [ "Programación II", "md__home_runner_work_PII_Object_Lifecycle_PII_Object_Lifecycle_README.html#autotoc_md2", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -43,7 +50,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Library_2obj_2Debug_2net5_80_2_8NETCoreApp_00Version_0av5_80_8AssemblyAttributes_8cs_source.html"
+"Library_8AssemblyInfo_8cs_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

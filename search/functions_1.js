@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['comparedifferentobjects_18',['CompareDifferentObjects',['../classObjectLifecycle_1_1Program.html#ae746cec7568772adcd0447bd929e99fb',1,'ObjectLifecycle::Program']]],
-  ['compareequalobjects_19',['CompareEqualObjects',['../classObjectLifecycle_1_1Program.html#a34658a5669f7e20abe7582447acf1de0',1,'ObjectLifecycle::Program']]],
-  ['createobject_20',['CreateObject',['../classObjectLifecycle_1_1Program.html#a210497dac2a02c3a714e0e31ceb31a6c',1,'ObjectLifecycle::Program']]]
+  ['testfullname_17',['TestFullName',['../classObjectLifecycle_1_1Tests_1_1PersonTests.html#a35a5277970783d3e5fa3e73fbe26d26f',1,'ObjectLifecycle::Tests::PersonTests']]],
+  ['testproperties_18',['TestProperties',['../classObjectLifecycle_1_1Tests_1_1PersonTests.html#a0d2a02d44186b5f467fbde0c56175868',1,'ObjectLifecycle::Tests::PersonTests']]]
 ];
