@@ -11,7 +11,8 @@
         </member>
         <member name="M:ObjectLifecycle.Person.#ctor(System.String,System.String)">
             <summary>
-            Crea una nueva persona con el nombre y apellidos recibids como argumento.
+            Inicializa una nueva instancia de la clase <see cref="T:ObjectLifecycle.Person"/> con el nombre y apellidos recibidos como
+            argumento.
             </summary>
             <param name="name">El nombre de la persona.</param>
             <param name="familyName">El apellido de la persona.</param>

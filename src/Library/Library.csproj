@@ -6,7 +6,7 @@
     <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <CodeAnalysisRuleSet>..\..\.stylecop\StyleCopRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\..\.analyzers\Analyzers.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
@@ -15,6 +15,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118"/>
-    <AdditionalFiles Include="..\..\.stylecop\stylecop.json" Link="stylecop.json"/>
+    <AdditionalFiles Include="..\..\.analyzers\stylecop.json" Link="stylecop.json"/>
   </ItemGroup>
 </Project>

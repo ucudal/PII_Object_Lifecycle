@@ -21,7 +21,8 @@ namespace ObjectLifecycle
         private string familyName;
 
         /// <summary>
-        /// Crea una nueva persona con el nombre y apellidos recibids como argumento.
+        /// Inicializa una nueva instancia de la clase <see cref="Person"/> con el nombre y apellidos recibidos como
+        /// argumento.
         /// </summary>
         /// <param name="name">El nombre de la persona.</param>
         /// <param name="familyName">El apellido de la persona.</param>
