@@ -41,7 +41,7 @@ namespace ObjectLifecycle
         public static void AssignTwoVariablesWithObject()
         {
             Person lavandina;
-            lavandina = new Person("Gonzalo", "Bergesio");
+            lavandina = new Person("Gonzalo", "Bergessio");
             Console.WriteLine(lavandina.FullName);
 
             Person goleador;
